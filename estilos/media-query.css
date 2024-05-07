@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+
+    img {
+        width: 96%;
+        border-radius: 20px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    body{
+        width: 58%;
+        margin: auto;
+        padding: 100px 0px;
+        background-color: hsl(30, 54%, 90%);
+
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+

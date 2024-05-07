@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/*
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+*/
+
+/* MOBILE FIRST - até 800px(768px) */
+
+
+
+img {
+    width: 100%;  
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 50%);
+}
+
+div#intro {
+    padding: 20px;
+}
+
+div#intro > h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+div#infotime {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 12pt;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+    margin: 0px 50px;
+    border-radius: 10px;
+}
+
+div#infotime > ul > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-margin-after: 0.5em;
+}
+
+div#infotime > ul > li::marker {
+    color: hsl(332, 51%, 32%)
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+tr > th {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 50%)
+}
+
+#nut {
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3, #nut {
+    color: hsl(14, 45%, 36%);
+}
+
+div#ingredientes {
+    padding: 0px 30px;
+    padding-right: 30px;
+}
+
+div#ingredientes > ul > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin-left: -10px;
+}
+
+div#ingredientes > ul > li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    margin: 30px;
+    color: hsl(0, 0%, 50%);
+    opacity: 0.5;
+}
+
+div#instrucoes {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div#instrucoes > ol > li {
+    margin-left: -10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    -webkit-margin-after: 1em;
+}
+
+div#instrucoes > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+div#nutricao {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+table#tabela {
+    width: 100%;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table#tabela th, td {
+    padding: 1rem 0rem 1rem 1.5rem;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.884);
+}
+
+
+#tabela tr:last-child td, #tabela tr:last-child th {
+    border-bottom: none;
+}
