@@ -1,2 +1,2 @@
 # recipe-page-main
- Página de exercício do Frontend Mentor (Página de receita)
+ Página de exercício do Frontend Mentor
