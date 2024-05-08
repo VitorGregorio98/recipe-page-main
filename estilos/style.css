@@ -83,12 +83,12 @@ tr > th {
     color: hsl(0, 0%, 50%)
 }
 
-#nut {
+.nut {
     font-weight: 700;
     font-style: normal;
 }
 
-h3, #nut {
+h3, .nut {
     color: hsl(14, 45%, 36%);
 }
 
